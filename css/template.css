@@ -2843,7 +2843,7 @@ svg {
       top: -55px;
       width: 81%; }
       .team .person .photo-team img.square-team-photo {
-        top: -58px; }
+        top: -78px; }
       .team .person .photo-team img.triangle-team-photo {
         top: -89px; }
     .team .person .photo-team .team-1.ellipse-team-photo, .team .person .photo-team .team-1.square-team-photo {
@@ -2943,7 +2943,7 @@ svg {
   .team .person .nameProf h3 {
     margin: 210px 0 0; }
   .team .person .photo-team img.square-team-photo {
-    top: -43px; }
+    top: -73px; }
   .team .person .photo-team img.triangle-team-photo {
     top: -66px; }
   .team .person .photo-team .team-1.triangle-team-photo {
@@ -4841,12 +4841,12 @@ footer.screen {
   .team .person .photo-team .team-1.triangle-team-photo {
     left: -10px !important; }
   .team .person .photo-team img.square-team-photo {
-    top: -53px; }
+    top: -83px; }
   .team .person .photo-team .square-team-photo {
     left: -16px !important; }
   .team .person .photo-team .team-2.square-team-photo {
     left: -23px !important;
-    top: -54px; }
+    top: -94px; }
   .navbar .nav-toggle > * {
     width: 40px; }
   .navbar .brand-and-crumbs .branding-logo {
