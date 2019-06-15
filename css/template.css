@@ -513,7 +513,10 @@ svg {
       font-family: Roboto-black; }
       .navbar .brand-and-crumbs .branding-logo .logo {
         max-height: 18px;
-        height: 18px; }
+        height: 18px; 
+        position: relative;
+        bottom: 24px; 
+        right: 30px;}
         .navbar .brand-and-crumbs .branding-logo .logo svg {
           width: 100%;
           height: 100%; }
@@ -630,6 +633,12 @@ svg {
     background-position: 0px 0px; }
   .navbar .you-button-menu a:hover .lazy-line svg {
     opacity: 1; } }
+
+@media (min-width: 767px){
+  .navbar .brand-and-crumbs .branding-logo .logo{
+    right: 16px;
+  }
+}
 
 @keyframes burgerAnim {
   0% {
@@ -2886,7 +2895,9 @@ svg {
       top: 0;
       width: 100%; }
     .team .person .nameProf {
-      text-transform: uppercase; }
+      text-transform: uppercase; 
+      position: relative;
+      right: 8px; }
       .team .person .nameProf h3 {
         font-size: 22px;
         font-weight: 500;
@@ -2901,13 +2912,17 @@ svg {
       font-size: 86px;
       font-weight: 900;
       background: none !important;
-      margin: 15px 0 0; }
+      margin: 15px 0 0; 
+      position: relative;
+      right: 8px; }
     .team .person .text p {
       font-size: 14px;
       font-weight: 300;
       margin: -42px auto 0;
       padding: 0 25px;
-      line-height: 30px; }
+      line-height: 30px; 
+      position: relative;
+      right: 8px; }
 
 @media (min-width: 991px){
   .team .person .nameProf{
@@ -3848,11 +3863,11 @@ svg {
 
 .contact-us-map {
   padding: 0;
-  height: 678px; }
+  height: 440px; }
   .contact-us-map #contact-us {
     z-index: 1;
     background: rgba(237, 237, 237, 0.9);
-    height: 680px;
+    height: 440px;
     padding-right: 70px; }
     .contact-us-map #contact-us .contact-us-title {
       margin: 96px 0 25px; }
@@ -3930,6 +3945,11 @@ svg {
     .contact-us-map #map .gmnoprint, .contact-us-map #map .gm-style-cc {
       display: none; }
 
+.contact-us-map #map img {
+  position: absolute;
+  right: 0;
+}
+
 @media (max-width: 991px) {
   .contact-us-map #contact-us .contact-us-title {
     margin-top: 55px; } }
@@ -3957,7 +3977,7 @@ svg {
 @media (max-width: 767px) {
   .contact-us-map #map {
     position: relative;
-    height: 237px; } }
+    height: 0px; } }
 
 @media (max-width: 1199px) {
   .contact-us-map #contact-us .contact-us-title {
@@ -3969,7 +3989,7 @@ svg {
 
 @media (max-width: 991px) {
   .contact-us-map {
-    height: 678px; }
+    height: 378px; }
     .contact-us-map #contact-us .contact-us-title {
       margin-top: 40px; }
       .contact-us-map #contact-us .contact-us-title h2 {
@@ -3985,6 +4005,13 @@ svg {
       margin-left: 0; }
   .contact-us-map #contact-us form {
     margin: 60px auto; } }
+
+@media (max-width: 767px){
+  .contact-us-map #contact-us{
+    position: relative;
+    bottom: 1px;
+  }
+}
 
 footer.screen {
   height: 75px !important;
@@ -4953,7 +4980,7 @@ footer.screen {
     background: none;
     width: 50px; }
   .navbar .nav-open .line {
-    background: #2196f3; }
+    background: #ffffff; }
   .team .person {
     max-width: 290px;
     margin: 102px auto 0; }
