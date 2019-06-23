@@ -3863,11 +3863,11 @@ svg {
 
 .contact-us-map {
   padding: 0;
-  height: 440px; }
+  height: 540px; }
   .contact-us-map #contact-us {
     z-index: 1;
     background: rgba(237, 237, 237, 0.9);
-    height: 440px;
+    height: 540px;
     padding-right: 70px; }
     .contact-us-map #contact-us .contact-us-title {
       margin: 96px 0 25px; }
@@ -3989,7 +3989,7 @@ svg {
 
 @media (max-width: 991px) {
   .contact-us-map {
-    height: 378px; }
+    height: 478px; }
     .contact-us-map #contact-us .contact-us-title {
       margin-top: 40px; }
       .contact-us-map #contact-us .contact-us-title h2 {

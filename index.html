@@ -102,6 +102,7 @@
                 <li class="pushy-link scroll link-benefits"><a href="#benefits">The Benefits</a></li>
                 <li class="pushy-link scroll link-timeline"><a href="#timeline">Timeline</a></li>
                 <li class="pushy-link scroll link-team"><a href="#team">Team</a></li>
+                <li class="pushy-link scroll link-contact-us-map"><a href="#contact-us-map">Contact us</a></li>
               </ul>
               <!-- end page-menu-->
 
@@ -749,44 +750,40 @@
                 <!-- cd-timeline-block-->
                 <div class="cd-timeline-block">
                   <!-- cd-timeline-content bottom-->
-                  <div class="cd-timeline-content bottom"><span class="cd-date">2022</span><a class="ellipse text-color"></a>
-                    <h3>Simulation</h3>
-                    <p>Software able to accurately simulate any environment down to the molecular level.</p>
+                  <div class="cd-timeline-content bottom"><span class="cd-date">June 2020</span><a class="ellipse text-color"></a>
+                    <h3>MVP</h3>
+                    <p>Simple simulation of a nanorobot in an environment.</p>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
                 <!-- end cd-timeline-block-->
                 <!-- cd-timeline-block-->
-                <div class="cd-timeline-block">
+                <div style="position:relative; left: 40px" class="cd-timeline-block">
                   <!-- cd-timeline-content bottom-->
                   <div class="cd-timeline-content top">
-                    <h3>Miniaturization</h3>
-                    <p>Miniaturization of nanorobot components.</p><a class="ellipse text-color"></a><span class="cd-date">2026</span>
+                    <h3 >Product Released</h3>
+                    <p >Complex simulations with an intuitive UI.</p><a class="ellipse text-color"></a>
+                    <span class="cd-date">2023</span>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
                 <!-- end cd-timeline-block-->
-                <!-- cd-timeline-block date-->
-                <div class="cd-timeline-block date">
-                  <h2 class="border-color text-color">2030</h2>
-                </div>
-                <!-- end cd-timeline-block date-->
                 <!-- cd-timeline-block-->
                 <div class="cd-timeline-block">
                   <!-- cd-timeline-content bottom-->
-                  <div class="cd-timeline-content bottom"><span class="cd-date"></span><a class="ellipse text-color"></a>
-                    <h3>Deploy</h3>
-                    <p>Evolutionary algorithm has been developed, and platform launched.</p>
+                  <div class="cd-timeline-content bottom"><span class="cd-date">2026</span><a class="ellipse text-color"></a>
+                    <h3>Integrate ML</h3>
+                    <p>ML integrated into simulation to optimize nanorobot design.</p>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
                 <!-- end cd-timeline-block-->
                 <!-- cd-timeline-block-->
-                <div class="cd-timeline-block">
+                <div style="position:relative; top:20px" class="cd-timeline-block">
                   <!-- cd-timeline-content bottom-->
                   <div class="cd-timeline-content top">
                     <h3>Swarm</h3>
-                    <p>Develop swarm algorithms.</p><a class="ellipse text-color"></a><span class="cd-date">2033</span>
+                    <p>Develop swarm algorithms.</p><a class="ellipse text-color"></a><span class="cd-date">2030</span>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
@@ -794,37 +791,25 @@
               </section>
               <section id="horizontal-timeline-next">
                 <!-- cd-timeline-block cd-timeline-block-close-->
-                <div class="cd-timeline-block cd-timeline-block-close"><a class="ellipse-click"></a>
+                <div style="position: relative; right:35px; top:15px" class="cd-timeline-block cd-timeline-block-close">
                   <!-- cd-timeline-content bottom-->
-                  <div class="cd-timeline-content bottom" hidden=""><span class="cd-date">Feb-28</span><a class="ellipse"></a>
-                    <h3>Title one</h3>
-                    <p>Lorem Ipsum has been the industry's standard dummy</p>
+                  <div class="cd-timeline-content bottom"><span class="cd-date"></span><a class="ellipse"></a>
+                    <h3>Quantum Computing</h3>
+                    <p>Harness QC for increased computation power.</p>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
                 <!-- end cd-timeline-block-->
-                <!-- cd-timeline-block cd-timeline-block-close-->
-                <div class="cd-timeline-block cd-timeline-block-close"><a class="ellipse-click"></a>
-                  <!-- cd-timeline-content top-->
-                  <div class="cd-timeline-content top" hidden="">
-                    <p>Lorem Ipsum has been the industry's standard dummy</p>
-                    <h3>Long title two</h3><a class="ellipse"></a><span class="cd-date">May-15</span>
-                  </div>
-                  <!-- end cd-timeline-content top-->
-                </div>
-                <!-- end cd-timeline-block-->
-                <!-- cd-timeline-block cd-timeline-block-close-->
-                <div class="cd-timeline-block cd-timeline-block-close"><a class="ellipse-click"></a>
+                <div style="position:relative; top:43px" class="cd-timeline-block cd-timeline-block-close">
                   <!-- cd-timeline-content bottom-->
-                  <div class="cd-timeline-content bottom" hidden=""><span class="cd-date">May-18</span><a class="ellipse"></a>
-                    <h3>Title three</h3>
-                    <p>Lorem Ipsum has been the industry's standard dummy</p>
+                  <div class="cd-timeline-content top">
+                    <h3>Nano-assembly</h3>
+                    <p>Manufacture complex nanorobots.</p><a class="ellipse"></a><span class="cd-date"></span>
                   </div>
                   <!-- end cd-timeline-content bottom-->
                 </div>
-                <!-- end cd-timeline-block-->
                 <!-- cd-timeline-block date-->
-                <div class="cd-timeline-block date">
+                <div style="left:50px" class="cd-timeline-block date">
                   <h2>2040</h2>
                 </div>
                 <!-- end cd-timeline-block-->
@@ -986,7 +971,11 @@
                   <div class="clearfix"></div>
                 </div>
                 <!-- end contact-->
-                <p class="text-right">Feel free to contact us!</p>
+                <form class="input-group border-submit" id="subscribe-form" method="POST" action="contactForm.php">
+                  <input name="email" class="form-control" type="email" placeholder="Your e-mail" required><span class="input-group-btn">
+                    <button class="you-color-big bg-color" type="submit"><span>Go</span></button></span>
+                </form>
+                <p class="text-right">Sign up to stay updated!</p>
               </section>
               <!-- end #contact-us-->
             </div>
