@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
 
     $emailFrom = "silen@darwinx.ca";
     $to = "arnav@darwinx.ca";
-    $headers = "From: $emailFrom \r\n";
+    $headers = "From: ". $emailFrom;
 
     $emailSubject = "Darwinx Mailing list Subscriber";
     $emailBody = "$subscriberEmail is a new subscriber";

@@ -1466,7 +1466,7 @@
 	      this.setOptions({ scrollwheel: true });
 	    });
 	  };
-	  if ( $('#gmap_canvas').length ) {
+	  if ( false ) {
 	    google.maps.event.addDomListener(window, 'load', initialize);
 	  }
 	  $('#colors-bullet').find('a').map(function(i, color) {
