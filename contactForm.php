@@ -10,4 +10,6 @@
     $emailBody = "$subscriberEmail is a new subscriber";
 
     mail($to, $emailSubject, $emailBody, $headers );
+
+    header("Location: index.html");
 ?>
