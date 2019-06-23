@@ -1,4 +1,6 @@
 <?php
+
+if (isset($_POST['submit'])) {
     $subscriberEmail = $_POST['email'];
 
     $emailFrom = "silen@darwinx.ca";
@@ -13,4 +15,5 @@
     header("Location: index.html?mailsent");
 
     echo "<script>console.log('php script has been excecuted')</script>";
+}
 ?>
