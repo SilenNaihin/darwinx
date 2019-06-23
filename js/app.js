@@ -1501,7 +1501,7 @@
 	      }
 	      body.addClass('theme-' + themeColor);
 	      console.log('theme-' + themeColor);
-	      if ( $('#gmap_canvas').length ) {
+	      if ( false ) {
 	        initialize();
 	        google.maps.event.addDomListener(window, 'load', initialize);
 	      }
