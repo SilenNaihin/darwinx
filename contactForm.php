@@ -1,8 +1,8 @@
 <?php
     $subscriberEmail = $_POST['email'];
 
-    $emailFrom = "arnav_paruthi@hotmail.com";
-    $to = "arnavparuthi@gmail.com";
+    $emailFrom = "silen@darwinx.ca";
+    $to = "arnav_paruthi@hotmail.com";
     $headers = "From: $emailFrom \r\n";
     $headers .= "Reply-To $subscriberEmail \r\n";
 
