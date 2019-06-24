@@ -604,7 +604,7 @@
 	  window.onload = function() {
 	    $('.loader').hide();
 	    $('.navbar-fixed-top').show();
-
+/*
 	    $('#contact-us-modal form').submit(function() {
 	      $('#contact-us-modal .modal-title').text('Thank you!');
 	      $('#contact-us-modal .modal-header > p').text('You\'ve requested call back.');
@@ -638,7 +638,7 @@
 	      $('.modal-backdrop ').fadeOut(200);
 	      return false;
 	    });
-
+*/
 	    $('.phone-mask').inputmask({
 	      mask: "+61 (99) 9999-9999",
 	      clearMaskOnLostFocus: false
