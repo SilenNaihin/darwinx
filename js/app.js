@@ -604,7 +604,7 @@
 	  window.onload = function() {
 	    $('.loader').hide();
 	    $('.navbar-fixed-top').show();
-/*
+
 	    $('#contact-us-modal form').submit(function() {
 	      $('#contact-us-modal .modal-title').text('Thank you!');
 	      $('#contact-us-modal .modal-header > p').text('You\'ve requested call back.');
@@ -619,7 +619,7 @@
 
 	      return false;
 	    });
-
+/*
 	    $('#subscribe-form').submit(function() {
 	      $('#subscribe-modal').addClass('in').fadeIn(200);
 	      $('.modal-backdrop').fadeIn(200);
@@ -632,13 +632,13 @@
 
 	      return false;
 	    });
-
+*/
 	    $('#subscribe-modal button').click(function() {
 	      $('#subscribe-modal').fadeOut(200);
 	      $('.modal-backdrop ').fadeOut(200);
 	      return false;
 	    });
-*/
+
 	    $('.phone-mask').inputmask({
 	      mask: "+61 (99) 9999-9999",
 	      clearMaskOnLostFocus: false
