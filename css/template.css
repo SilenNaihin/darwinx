@@ -513,7 +513,10 @@ svg {
       font-family: Roboto-black; }
       .navbar .brand-and-crumbs .branding-logo .logo {
         max-height: 18px;
-        height: 18px; }
+        height: 18px; 
+        position: relative;
+        bottom: 24px; 
+        right: 30px;}
         .navbar .brand-and-crumbs .branding-logo .logo svg {
           width: 100%;
           height: 100%; }
@@ -630,6 +633,12 @@ svg {
     background-position: 0px 0px; }
   .navbar .you-button-menu a:hover .lazy-line svg {
     opacity: 1; } }
+
+@media (min-width: 767px){
+  .navbar .brand-and-crumbs .branding-logo .logo{
+    right: 16px;
+  }
+}
 
 @keyframes burgerAnim {
   0% {
@@ -1032,7 +1041,8 @@ svg {
 
 @media (max-width: 991px) {
   .screen-future .static, .screen-future .parallax, .screen-future .video {
-    margin-top: 0; } }
+    margin-top: 0; 
+    height: 700px;} }
 
 @media (max-width: 991px) {
   .screen-future .image img {
@@ -1053,15 +1063,21 @@ svg {
     font-size: 3.6rem;
     line-height: 40px;
     text-align: center;
-    margin-top: 50px; }
+    margin-top: 50px; 
+    position: relative;
+    top: 85px;}
   .screen-future .text p {
-    padding-right: 0; } }
+    padding-right: 0; 
+    position: relative;
+    top: 70px;} }
 
 @media (max-width: 767px) {
   .screen-future .text h2 {
     margin-top: 0;
     margin-left: 0;
-    line-height: 36px; } }
+    line-height: 36px; 
+    position: relative;
+    top: 105px;} }
 
 @media (max-width: 1199px) {
   .screen-future .text p {
@@ -1077,7 +1093,9 @@ svg {
 @media (max-width: 767px) {
   .screen-future .text p {
     width: 100%;
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; 
+    position: relative;
+    top: 85px;} }
 
 @media (max-width: 1199px) {
   .screen-future .text a {
@@ -1086,11 +1104,15 @@ svg {
 
 @media (max-width: 991px) {
   .screen-future .text a {
-    margin: 0 auto; } }
+    margin: 0 auto; 
+    position: relative;
+    top: 50px;} }
 
 @media (max-width: 767px) {
   .screen-future .text a {
-    width: 100%; } }
+    width: 100%; 
+    position: relative;
+    top: 70px;} }
 
 @keyframes scroll-cta {
   0% {
@@ -2843,19 +2865,19 @@ svg {
       top: -55px;
       width: 81%; }
       .team .person .photo-team img.square-team-photo {
-        top: -58px; }
+        top: -78px; }
       .team .person .photo-team img.triangle-team-photo {
         top: -89px; }
     .team .person .photo-team .team-1.ellipse-team-photo, .team .person .photo-team .team-1.square-team-photo {
-      left: 34px; }
+      left: 72px; }
     .team .person .photo-team .team-1.triangle-team-photo {
       left: 36px; }
     .team .person .photo-team .team-2.ellipse-team-photo, .team .person .photo-team .team-2.square-team-photo {
-      left: 30px; }
+      left: 72px; }
     .team .person .photo-team .team-2.triangle-team-photo {
       left: 52px; }
     .team .person .photo-team .team-3.ellipse-team-photo, .team .person .photo-team .team-3.square-team-photo, .team .person .photo-team .team-3.triangle-team-photo {
-      left: 34px; }
+      left: 72px; }
     .team .person .photo-team .team-4.ellipse-team-photo, .team .person .photo-team .team-4.square-team-photo {
       left: 34px; }
     .team .person .photo-team .team-4.triangle-team-photo {
@@ -2873,7 +2895,9 @@ svg {
       top: 0;
       width: 100%; }
     .team .person .nameProf {
-      text-transform: uppercase; }
+      text-transform: uppercase; 
+      position: relative;
+      right: 8px; }
       .team .person .nameProf h3 {
         font-size: 22px;
         font-weight: 500;
@@ -2888,18 +2912,44 @@ svg {
       font-size: 86px;
       font-weight: 900;
       background: none !important;
-      margin: 15px 0 0; }
+      margin: 15px 0 0; 
+      position: relative;
+      right: 8px; }
     .team .person .text p {
       font-size: 14px;
       font-weight: 300;
       margin: -42px auto 0;
       padding: 0 25px;
-      line-height: 30px; }
+      line-height: 30px; 
+      position: relative;
+      right: 8px; }
+
+@media (min-width: 991px){
+  .team .person .nameProf{
+    position: relative;
+    left: 112px;
+  }
+  .team .person .text{
+    position: relative;
+    left: 112px;
+  }
+}
+
+@media (min-width: 1199px){
+  .team .person .nameProf{
+    position: relative;
+    left: 55px;
+  }
+  .team .person .text{
+    position: relative;
+    left: 55px;
+  }
+}
 
 @media (max-width: 1199px) {
   .team {
     margin: 0;
-    padding: 0;
+    padding: 1;
     width: 100%;
     left: 0; }
     .team .team-wide-sheet {
@@ -2937,13 +2987,13 @@ svg {
   .team {
     padding-top: 50px; }
   .team .person .photo-team img {
-    left: 25px !important;
+    left: 143px !important;
     top: -37px;
     width: 73%; }
   .team .person .nameProf h3 {
     margin: 210px 0 0; }
   .team .person .photo-team img.square-team-photo {
-    top: -43px; }
+    top: -73px; }
   .team .person .photo-team img.triangle-team-photo {
     top: -66px; }
   .team .person .photo-team .team-1.triangle-team-photo {
@@ -2951,7 +3001,7 @@ svg {
   .team .person .photo-team .team-2.triangle-team-photo {
     left: 38px !important; }
   .team .person .photo-team .team-2.square-team-photo {
-    left: 22px !important; } }
+    left: 140px !important; } }
 
 @media (max-width: 991px) {
   .team .person .photo-team img {
@@ -3813,11 +3863,11 @@ svg {
 
 .contact-us-map {
   padding: 0;
-  height: 678px; }
+  height: 540px; }
   .contact-us-map #contact-us {
     z-index: 1;
     background: rgba(237, 237, 237, 0.9);
-    height: 680px;
+    height: 540px;
     padding-right: 70px; }
     .contact-us-map #contact-us .contact-us-title {
       margin: 96px 0 25px; }
@@ -3895,6 +3945,11 @@ svg {
     .contact-us-map #map .gmnoprint, .contact-us-map #map .gm-style-cc {
       display: none; }
 
+.contact-us-map #map img {
+  position: absolute;
+  right: 0;
+}
+
 @media (max-width: 991px) {
   .contact-us-map #contact-us .contact-us-title {
     margin-top: 55px; } }
@@ -3922,7 +3977,7 @@ svg {
 @media (max-width: 767px) {
   .contact-us-map #map {
     position: relative;
-    height: 237px; } }
+    height: 0px; } }
 
 @media (max-width: 1199px) {
   .contact-us-map #contact-us .contact-us-title {
@@ -3934,7 +3989,7 @@ svg {
 
 @media (max-width: 991px) {
   .contact-us-map {
-    height: 678px; }
+    height: 478px; }
     .contact-us-map #contact-us .contact-us-title {
       margin-top: 40px; }
       .contact-us-map #contact-us .contact-us-title h2 {
@@ -3951,8 +4006,15 @@ svg {
   .contact-us-map #contact-us form {
     margin: 60px auto; } }
 
+@media (max-width: 767px){
+  .contact-us-map #contact-us{
+    position: relative;
+    bottom: 1px;
+  }
+}
+
 footer.screen {
-  height: 230px !important;
+  height: 75px !important;
   text-align: center;
   padding: 0; }
   footer.screen .social {
@@ -4841,12 +4903,12 @@ footer.screen {
   .team .person .photo-team .team-1.triangle-team-photo {
     left: -10px !important; }
   .team .person .photo-team img.square-team-photo {
-    top: -53px; }
+    top: -83px; }
   .team .person .photo-team .square-team-photo {
     left: -16px !important; }
   .team .person .photo-team .team-2.square-team-photo {
     left: -23px !important;
-    top: -54px; }
+    top: -94px; }
   .navbar .nav-toggle > * {
     width: 40px; }
   .navbar .brand-and-crumbs .branding-logo {
@@ -4918,7 +4980,7 @@ footer.screen {
     background: none;
     width: 50px; }
   .navbar .nav-open .line {
-    background: #2196f3; }
+    background: #ffffff; }
   .team .person {
     max-width: 290px;
     margin: 102px auto 0; }
